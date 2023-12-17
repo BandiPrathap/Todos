@@ -1,0 +1,83 @@
+.heading{
+    text-align:center;
+    margin:30px;
+    color:rgb(18, 231, 18);
+   
+   }
+   .inputData{
+       font-size:20px;
+       font-weight:bold;
+       
+   }
+   .todoContainer{
+       border:solid 5px rgb(255, 77, 0);
+       margin:30px;
+       background-color: rgb(198, 238, 238);
+       font-family:"roboto";
+       padding:30px;
+       color:rgb(235, 152, 50);
+       border-radius:10px;
+       text-align:center;
+   }
+   .button{ 
+       border-radius:8px;
+       color:rgb(172, 222, 46);
+       text-align:center;
+       font-weight:bold;
+       background-color:blue;
+   }
+   .taskcontainer{
+       background-color:lightblue;
+       font-size:20px;
+       padding-left:10px;
+       padding-bottom:5px;
+       padding-top:5px;
+       border-radius:10px;
+       margin-bottom:5px;
+       margin-left:10px;
+       border-left:solid 8px blue;
+       width:60vw;
+       display:flex;
+   }
+   .flex{
+       display:flex;
+       flex-direction:row;
+       margin-top:10px;
+   }
+   input{
+       border-radius:5px;
+       height:20px;
+   }
+   .delete_button{ 
+       border-radius:8px;
+       color:white;
+       text-align:center;
+       background-color:red;
+       margin-right:10px;
+   }
+   .checkBox{ 
+       margin-top:10px;
+       background-color:blue;
+       height:15px;
+       width:15px;
+   }
+   .kdflex{
+       display:flex;
+       flex-direction:column;
+   }
+.listcontainer{
+    border:solid 5px rgb(255, 77, 0);
+    margin:30px;
+    background-color: rgb(198, 238, 238);
+    font-family:"roboto";
+    border-radius:10px;
+    padding:10px;
+}
+.buttonContainer{
+    text-align:right;
+    width:100%;
+
+}
+.strikethrough{
+    text-decoration: line-through;
+}
