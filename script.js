@@ -78,7 +78,7 @@ function addTask(todo){
 	liE1.appendChild(divE1);
 	
 	let labelE1=document.createElement("label");
-	labelE1.classList.add("col-10");
+	labelE1.classList.add("col-8");
 	labelE1.setAttribute("for",checkBoxId);
 	labelE1.id=labelId;
 	labelE1.textContent=todo.name;
